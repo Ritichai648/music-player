@@ -1,0 +1,40 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+/* Add spacing between input and button */
+.input-container {
+  display: flex;
+  gap: 10px; /* Adjust the gap value to your preference */
+  margin-bottom: 20px; /* Add margin at the bottom for spacing */
+}
+
+/* Style the input field */
+.input-container input[type="text"] {
+  padding: 8px;
+  width: 70%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Style the button */
+.input-container button {
+  padding: 8px 16px;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Style the button on hover */
+
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
